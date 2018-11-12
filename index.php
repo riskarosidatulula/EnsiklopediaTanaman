@@ -1,3 +1,8 @@
+<?php
+    require_once "vendor/autoload.php";
+    $rdfaParser = new \Jkphl\RdfaLiteMicrodata\Ports\Parser\RdfaLite();
+    $rdfaItems = $rdfaParser->parseHtmlFile('Buah.html');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +14,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Newsbox - Modern Magazine &amp; Newspaper HTML Template</title>
+    <title>Ensiklopedia Tanaman Buah</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/icon.png">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -63,7 +68,6 @@
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="#">United Kingdom</a></li>
                                                 <li><a href="#">United Kingdom</a></li>
-                                                <li><a href="#">Germany</a></li>
 
                                             </ul>
                                             <ul class="single-mega cn-col-4">
@@ -74,7 +78,6 @@
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="#">Bangladesh</a></li>
                                                 <li><a href="#">Bangladesh</a></li>
-                                                <li><a href="#">Chaina</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="#">California</a></li>
@@ -113,11 +116,11 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breaking News Area Start ##### -->
-    <section class="breaking-news-area">
+<!--     <section class="breaking-news-area">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <!-- Breaking News Widget -->
+                    <!-- Breaking News Widget 
                     <div class="breaking-news-ticker d-flex flex-wrap align-items-center">
                         <div class="title">
                             <h6>Trending</h6>
@@ -133,7 +136,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ##### Breaking News Area End ##### -->
 
     <!-- ##### Hero Area Start ##### -->
@@ -156,7 +159,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Traffic Problems in Time Square</a>
+                                    <a href="#" class="post-title">Apel (Pyrus Malus Mill)</a>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +175,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">The best way to spend your holliday</a>
+                                    <a href="#" class="post-title">Durian</a>
                                 </div>
                             </div>
                             <!-- Single Blog Post Area -->
@@ -185,7 +188,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Sport results for the weekend games</a>
+                                    <a href="#" class="post-title">Belimbing</a>
                                 </div>
                             </div>
                         </div>
@@ -264,8 +267,8 @@
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                     <a class="nav-item nav-link active" id="nav1" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-1" aria-selected="true">Latest</a>
                                     <a class="nav-item nav-link" id="nav2" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2" aria-selected="false">Popular</a>
-                                    <a class="nav-item nav-link" id="nav3" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3" aria-selected="false">International</a>
-                                    <a class="nav-item nav-link" id="nav4" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">Local</a>
+<!--                                     <a class="nav-item nav-link" id="nav3" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3" aria-selected="false">International</a>
+                                    <a class="nav-item nav-link" id="nav4" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">Local</a> -->
                                 </div>
                             </nav>
                         </div>
@@ -285,8 +288,8 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
+                                                <a href="#" class="post-title">Duku</a>
+                                                <a href="#" class="post-author">By Admin</a>
                                             </div>
                                         </div>
                                     </div>
@@ -302,8 +305,8 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
+                                                <a href="#" class="post-title">Cempedak</a>
+                                                <a href="#" class="post-author">By Admin</a>
                                             </div>
                                         </div>
                                     </div>
@@ -319,7 +322,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                                <a href="#" class="post-title">Gandaria</a>
                                             </div>
                                         </div>
                                     </div>
@@ -335,7 +338,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                                <a href="#" class="post-title">Mangga</a>
                                             </div>
                                         </div>
                                     </div>
@@ -351,7 +354,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                                <a href="#" class="post-title">Jambu Biji</a>
                                             </div>
                                         </div>
                                     </div>
@@ -367,7 +370,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                                <a href="#" class="post-title">Kelengkeng</a>
                                             </div>
                                         </div>
                                     </div>
@@ -383,7 +386,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
+                                                <a href="#" class="post-title">Pisang</a>
                                             </div>
                                         </div>
                                     </div>
@@ -399,7 +402,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
+                                                <a href="#" class="post-title">Naga</a>
                                             </div>
                                         </div>
                                     </div>
@@ -419,8 +422,8 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
+                                                <a href="#" class="post-title">Rambutan</a>
+                                                <a href="#" class="post-author">By Admin</a>
                                             </div>
                                         </div>
                                     </div>
@@ -436,8 +439,8 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
+                                                <a href="#" class="post-title">strawberry</a>
+                                                <a href="#" class="post-author">By Admin</a>
                                             </div>
                                         </div>
                                     </div>
@@ -453,7 +456,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                                <a href="#" class="post-title">Gandaria</a>
                                             </div>
                                         </div>
                                     </div>
@@ -469,7 +472,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                                <a href="#" class="post-title">Mangga</a>
                                             </div>
                                         </div>
                                     </div>
@@ -485,7 +488,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                                <a href="#" class="post-title">Jambu Biji</a>
                                             </div>
                                         </div>
                                     </div>
@@ -501,7 +504,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                                <a href="#" class="post-title">Kelengkeng</a>
                                             </div>
                                         </div>
                                     </div>
@@ -517,7 +520,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
+                                                <a href="#" class="post-title">Pisang</a>
                                             </div>
                                         </div>
                                     </div>
@@ -533,7 +536,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
+                                                <a href="#" class="post-title">Naga</a>
                                             </div>
                                         </div>
                                     </div>
@@ -827,12 +830,12 @@
                         </div>
 
                         <!-- Add Widget -->
-                        <div class="single-widget-area add-widget mb-30">
+<!--                         <div class="single-widget-area add-widget mb-30">
                             <a href="#">
                                 <img src="img/bg-img/add3.png" alt="">
                             </a>
                         </div>
-
+ -->
                     </div>
                 </div>
             </div>
@@ -848,9 +851,8 @@
                 <div class="col-12">
                     <div class="featured-video-area d-flex align-items-center justify-content-center">
                         <div class="video-content text-center">
-                            <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                            <span class="published-date">June 20, 2018</span>
-                            <h3 class="video-title">Traffic Problems in Time Square</h3>
+                            <span class="published-date"></span>
+                            <h3 class="video-title">Dapatkan Manfaat dari Berbagai Buah</h3>
                         </div>
                     </div>
                 </div>
@@ -869,15 +871,15 @@
                             <div class="single-blog-post style-3">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/11.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                    <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
+                                    <!-- <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Elon Musk: Tesla worker admitted to sabotage</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <p class="post-title">Rambutan</p>
+                                    <a href="#" class="post-author">By Admin</a>
                                 </div>
                             </div>
 
@@ -885,15 +887,15 @@
                             <div class="single-blog-post style-3">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/12.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                    <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
+                                    <!-- <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Rachel Sm ith breaks down while discussing border crisis </p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <p class="post-title">Strawberry </p>
+                                    <a href="#" class="post-author">By Admin</a>
                                 </div>
                             </div>
 
@@ -901,15 +903,15 @@
                             <div class="single-blog-post style-3">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/13.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                    <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
+                                    <!-- <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Dow falls 287 points as trade war fears escalate</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <p class="post-title">Zaitun</p>
+                                    <a href="#" class="post-author">By Admin</a>
                                 </div>
                             </div>
 
@@ -917,15 +919,15 @@
                             <div class="single-blog-post style-3">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/11.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                    <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
+                                    <!-- <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Elon Musk: Tesla worker admitted to sabotage</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <p class="post-title">Duku</p>
+                                    <a href="#" class="post-author">By Admin</a>
                                 </div>
                             </div>
 
@@ -933,15 +935,15 @@
                             <div class="single-blog-post style-3">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/12.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                    <a href="#"><img src="img/bg-img/15.jpg" alt=""></a>
+                                    <!-- <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Rachel Sm ith breaks down while discussing border crisis </p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <p class="post-title">Cempedak </p>
+                                    <a href="#" class="post-author">By Admin</a>
                                 </div>
                             </div>
 
@@ -949,15 +951,15 @@
                             <div class="single-blog-post style-3">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/13.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                    <a href="#"><img src="img/bg-img/16.jpg" alt=""></a><!-- 
+                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Dow falls 287 points as trade war fears escalate</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <p class="post-title">Gandaria</p>
+                                    <a href="#" class="post-author">By Admin</a>
                                 </div>
                             </div>
 
@@ -985,8 +987,8 @@
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
+                            <a href="#" class="post-title">Rambutan</a>
+                            <a href="#" class="post-author">By Admin</a>
                         </div>
                     </div>
                 </div>
@@ -1002,8 +1004,8 @@
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis </a>
-                            <a href="#" class="post-author">By Michael Smith</a>
+                            <a href="#" class="post-title">Strawberry</a>
+                            <a href="#" class="post-author">By Admin</a>
                         </div>
                     </div>
                 </div>
@@ -1019,8 +1021,8 @@
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
+                            <a href="#" class="post-title">Zaitun</a>
+                            <a href="#" class="post-author">By Admin</a>
                         </div>
                     </div>
                 </div>
@@ -1036,8 +1038,8 @@
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
+                            <a href="#" class="post-title">Tomat</a>
+                            <a href="#" class="post-author">By Admin</a>
                         </div>
                     </div>
                 </div>
@@ -1053,8 +1055,8 @@
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis </a>
-                            <a href="#" class="post-author">By Michael Smith</a>
+                            <a href="#" class="post-title">Pepaya </a>
+                            <a href="#" class="post-author">By Admin</a>
                         </div>
                     </div>
                 </div>
@@ -1070,8 +1072,8 @@
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
+                            <a href="#" class="post-title">Juwet</a>
+                            <a href="#" class="post-author">By Admin</a>
                         </div>
                     </div>
                 </div>
@@ -1088,11 +1090,11 @@
     <!-- ##### Top News Area End ##### -->
 
     <!-- ##### Add Area Start ##### -->
-    <div class="big-add-area mb-100">
+<!--     <div class="big-add-area mb-100">
         <div class="container-fluid">
             <a href="#"><img src="img/bg-img/add2.png" alt=""></a>
         </div>
-    </div>
+    </div> -->
     <!-- ##### Add Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
