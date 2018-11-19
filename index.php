@@ -45,7 +45,7 @@
                     <nav class="classy-navbar justify-content-between" id="newsboxNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo-01.png" alt="Ensiklopedia Tanaman"></a>
+                        <a href="index.php" class="nav-brand"><img src="img/core-img/logo-01.png" alt="Ensiklopedia Tanaman"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -66,26 +66,49 @@
                                     <li><a href="#">Kategori</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">United Kingdom</a></li>
-                                                <li><a href="#">United Kingdom</a></li>
+                                                <li><a href="#">A</a></li>
+                                                <li><a href="#">B</a></li>
+                                                <li><a href="#">C</a></li>
+                                                <li><a href="#">D</a></li>
+                                                <li><a href="#">E</a></li>
+                                                <li><a href="#">F</a></li>
+                                                <li><a href="#">G</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="#">H</a></li>
+                                                <li><a href="#">I</a></li>
+                                                <li><a href="#">J</a></li>
+                                                <li><a href="#">K</a></li>
+                                                <li><a href="#">L</a></li>
+                                                <li><a href="#">L</a></li>
+                                                <li><a href="#">M</a></li>
 
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">Algeria</a></li>
-                                                <li><a href="#">Algeria</a></li>
-
+                                                <li><a href="#">N</a></li>
+                                                <li><a href="#">O</a></li>
+                                                <li><a href="#">P</a></li>
+                                                <li><a href="#">Q</a></li>
+                                                <li><a href="#">R</a></li>
+                                                <li><a href="#">S</a></li>
+                                                <li><a href="#">T</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">Bangladesh</a></li>
-                                                <li><a href="#">Bangladesh</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="#">California</a></li>
-                                                <li><a href="#">California</a></li>
+                                                <li><a href="#">U</a></li>
+                                                <li><a href="#">V</a></li>
+                                                <li><a href="#">W</a></li>
+                                                <li><a href="#">X</a></li>
+                                                <li><a href="#">Y</a></li>
+                                                <li><a href="#">Z</a></li>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="#">Local News</a></li>
+                                    <li><a href="#">Manfaat</a>
+                                        <ul class="dropdown">
+                                            <li><a href="index.html">Kesehatan</a></li>
+                                            <li><a href="catagory.html">Kecantikan</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="index.html">Home</a></li>
@@ -188,7 +211,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Belimbing</a>
+                                    <a href="single-post.html" class="post-title">Belimbing</a>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +234,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Traffic Problems in Time Square</a>
+                                    <a href="#" class="post-title">Apel (Pyrus Malus Mill)</a>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +250,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">The best way to spend your holliday</a>
+                                    <a href="#" class="post-title">Durian</a>
                                 </div>
                             </div>
                             <!-- Single Blog Post Area -->
@@ -240,7 +263,7 @@
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Sport results for the weekend games</a>
+                                    <a href="single-post.html" class="post-title">Belimbing</a>
                                 </div>
                             </div>
                         </div>
